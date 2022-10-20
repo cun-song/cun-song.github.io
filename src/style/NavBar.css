@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#logo {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 94px;
+  color: #dff6ff;
+  transition: color 0.5s ease;
+}
+#logo:hover {
+  color: #47b5ff;
+}
+
+.navlinked {
+  font-family: "Open Sans";
+  font-style: normal;
+  line-height: 55px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s ease;
+}
+.navlinked:hover {
+  color: #256d85;
+}
+
+.butnav {
+  border: 2px solid #256d85;
+  background-color: #256d85;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+.butnav:hover {
+  border: 2px solid #256d85;
+  background-color: transparent;
+  color: #fff;
+}
+
+.ms-auto {
+  position: relative;
+  z-index: 1;
+}

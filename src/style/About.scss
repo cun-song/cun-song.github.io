@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.profil2 {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 10px 7px rgba(174, 163, 163, 0.25);
+}
+
+.profil1 {
+  width: 42%;
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.col2 {
+  min-width: 50%;
+  p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+    color: #ffffff;
+    @media screen and (max-width: 575px) {
+      font-size: 20px;
+    }
+  }
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #47b5ff;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  color: #dff6ff;
+}
+
+.garis {
+  background-color: #47b5ff;
+  width: 90px;
+  height: 7px;
+}
+
+.li {
+  min-height: 35px;
+  .tebel {
+    width: 25%;
+    @media screen and (max-width: 477px) {
+      width: 35%;
+    }
+  }
+}
+
+.li h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #dff6ff;
+  line-height: 20px;
+  @media screen and (max-width: 575px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 477px) {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
+.li p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  color: #fff;
+  line-height: 20px;
+  @media screen and (max-width: 575px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 477px) {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+.but {
+  height: 50px;
+  width: 250px;
+  background-color: #47b5ff;
+  transition: all 1s;
+}
+
+.but:hover {
+  background-color: #214e6cc6;
+}
+
+.but h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 9px;
+  @media screen and (max-width: 477px) {
+    font-size: 14px;
+  }
+}
+
+.but img {
+  height: 30px;
+  width: 30px;
+  @media screen and (max-width: 477px) {
+    height: 20px;
+    width: 20px;
+  }
+}
