@@ -1,0 +1,108 @@
+.portoback {
+  min-height: 100vh;
+  background: linear-gradient(247.32deg, #256d85 44.62%, rgba(49, 55, 59, 0.91) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 70px 0;
+}
+@media screen and (max-width: 575px) {
+  .portoback {
+    padding: 20px 0;
+  }
+}
+.portoback svg {
+  width: 70px;
+  height: 70px;
+  fill: #dff6ff;
+  margin-bottom: 10%;
+  margin-left: -20px;
+}
+@media screen and (max-width: 1199px) {
+  .portoback svg {
+    margin-bottom: 5%;
+  }
+}
+
+.portofotoback {
+  width: 650px;
+  height: auto;
+  position: relative;
+}
+@media screen and (max-width: 1199px) {
+  .portofotoback {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.portofotoback img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  filter: brightness(100%);
+  transition: filter 1s ease;
+}
+.portofotoback a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: #000;
+  transition: all 1s ease;
+}
+.portofotoback h3 {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portofotoback:hover a {
+  opacity: 0.7;
+}
+
+.portotulisanback {
+  width: 95%;
+  color: white;
+  font-family: "Roboto";
+}
+@media screen and (max-width: 1199px) {
+  .portotulisanback {
+    margin-top: 10px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portotulisanback {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .portotulisanback {
+    width: 100%;
+  }
+}
+.portotulisanback h1 {
+  color: #dff6ff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 80px;
+}
+@media screen and (max-width: 484px) {
+  .portotulisanback h1 {
+    font-size: 33px;
+  }
+}
+.portotulisanback p {
+  text-align: justify;
+  font-size: 19px;
+}/*# sourceMappingURL=Porto.css.map */

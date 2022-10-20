@@ -1,0 +1,43 @@
+.Bg {
+  min-height: 100vh;
+  background: url("../assets/home.png");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 20px;
+}
+
+.profil {
+  width: 430px;
+  height: 670px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+@media screen and (max-width: 473px) {
+  .profil {
+    width: 320px;
+    height: 570px;
+  }
+}
+
+.about {
+  min-height: 100vh;
+  background: linear-gradient(247.32deg, rgba(17, 68, 100, 0.95) 34.72%, #06283d 52.43%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill {
+  background-color: #2a363e;
+  padding-top: 50px;
+}
+
+#Portfolio {
+  min-height: 100vh;
+  padding-top: 50px;
+  background: linear-gradient(247.32deg, #256d85 44.62%, rgba(49, 55, 59, 0.91) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=Home.css.map */

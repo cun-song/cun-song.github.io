@@ -70,7 +70,7 @@ function Portfolio() {
       var judul = "Aplikasi Kasir";
       var deskripsi =
         "Project ini merupakan sebuah aplikasi kasir yang terkoneksi ke database gudang, sehingga setiap pemesanan dan pembelian barang akan tercatat secara otomatis pada database gudang. Aplikasi ini saya bangun menggunakan programming language C# dan SQL pada databasenya. source code aplikasi ini dapat dilihat pada repository Github saya atau mengKlik Gambar !!";
-      var a = "https://github.com/cun-song";
+      var a = "https://github.com/cun-song/Kasir-Warehouse";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
@@ -82,7 +82,7 @@ function Portfolio() {
       var judul = "Aplikasi Kasir";
       var deskripsi =
         "Project ini merupakan sebuah aplikasi kasir yang terkoneksi ke database gudang, sehingga setiap pemesanan dan pembelian barang akan tercatat secara otomatis pada database gudang. Aplikasi ini saya bangun menggunakan programming language C# dan SQL pada databasenya. source code aplikasi ini dapat dilihat pada repository Github saya atau mengKlik Gambar !!";
-      var a = "https://github.com/cun-song";
+      var a = "https://github.com/cun-song/Kasir-Warehouse";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
@@ -95,7 +95,7 @@ function Portfolio() {
       var judul = "Aplikasi Kasir";
       var deskripsi =
         "Project ini merupakan sebuah aplikasi kasir yang terkoneksi ke database gudang, sehingga setiap pemesanan dan pembelian barang akan tercatat secara otomatis pada database gudang. Aplikasi ini saya bangun menggunakan programming language C# dan SQL pada databasenya. source code aplikasi ini dapat dilihat pada repository Github saya atau mengKlik Gambar !!";
-      var a = "https://github.com/cun-song";
+      var a = "https://github.com/cun-song/Kasir-Warehouse";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
@@ -108,7 +108,7 @@ function Portfolio() {
       var judul = "Website Ecommerce";
       var deskripsi =
         "Project ini merupakan sebuah website Ecommerce/Toko online yang menjual peralatan-peralatan olahraga basket. Website ini saya bangun menggunakan HTML, CSS, dan JavaScript. Website ini masih sangat sederhana karena hanya sebagai tampilan, bisa melakukan transaksi akan tetapi tidak tercatat ke database. website ini masih dalam tahap prototype, Website dapat dikunjungi dengan mengklik Gambar !!";
-      var a = "https://cun-song.github.io/";
+      var a = "https://hoopsuniverse.netlify.app/";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
@@ -122,7 +122,7 @@ function Portfolio() {
       var judul = "Website Ecommerce";
       var deskripsi =
         "Project ini merupakan sebuah website Ecommerce/Toko online yang menjual peralatan-peralatan olahraga basket. Website ini saya bangun menggunakan HTML, CSS, dan JavaScript. Website ini masih sangat sederhana karena hanya sebagai tampilan, bisa melakukan transaksi akan tetapi tidak tercatat ke database. website ini masih dalam tahap prototype, Website dapat dikunjungi dengan mengklik Gambar !!";
-      var a = "https://cun-song.github.io/";
+      var a = "https://hoopsuniverse.netlify.app/";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
@@ -136,7 +136,7 @@ function Portfolio() {
       var judul = "Website Ecommerce";
       var deskripsi =
         "Project ini merupakan sebuah website Ecommerce/Toko online yang menjual peralatan-peralatan olahraga basket. Website ini saya bangun menggunakan HTML, CSS, dan JavaScript. Website ini masih sangat sederhana karena hanya sebagai tampilan, bisa melakukan transaksi akan tetapi tidak tercatat ke database. website ini masih dalam tahap prototype, Website dapat dikunjungi dengan mengklik Gambar !!";
-      var a = "https://cun-song.github.io/";
+      var a = "https://hoopsuniverse.netlify.app/";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
@@ -151,7 +151,7 @@ function Portfolio() {
       var judul = "Website Portofolio";
       var deskripsi =
         "Project ini merupakan sebuah website Portofolio yang menampilkan informasi-informasi mengenai saya dan portofolio yang telah saya kerjakan. Website ini saya bangung menggunakan HTML, SASS dan bantuan framework Bootstrap dan ReactJS. Website ini merupakan website yang sedang kalian akses sekarang, terdapat juga tampilan Contact, About, dan Skill saya.";
-      var a = "https://www.instagram.com/cun_song/";
+      var a = "https://cunsong.me/";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
@@ -164,7 +164,7 @@ function Portfolio() {
       var judul = "Website Portofolio";
       var deskripsi =
         "Project ini merupakan sebuah website Portofolio yang menampilkan informasi-informasi mengenai saya dan portofolio yang telah saya kerjakan. Website ini saya bangung menggunakan HTML, SASS dan bantuan framework Bootstrap dan ReactJS. Website ini merupakan website yang sedang kalian akses sekarang, terdapat juga tampilan Contact, About, dan Skill saya.";
-      var a = "https://www.instagram.com/cun_song/";
+      var a = "https://cunsong.me/";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
@@ -176,7 +176,7 @@ function Portfolio() {
       var judul = "Website Portofolio";
       var deskripsi =
         "Project ini merupakan sebuah website Portofolio yang menampilkan informasi-informasi mengenai saya dan portofolio yang telah saya kerjakan. Website ini saya bangung menggunakan HTML, SASS dan bantuan framework Bootstrap dan ReactJS. Website ini merupakan website yang sedang kalian akses sekarang, terdapat juga tampilan Contact, About, dan Skill saya.";
-      var a = "https://www.instagram.com/cun_song/";
+      var a = "https://cunsong.me/";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
