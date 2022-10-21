@@ -214,7 +214,7 @@ function Portfolio() {
             <img src={kasir} className="w-100 h-100" alt="" ref={ref5} />
           </div>
           <h2 className="judulporto" ref={refb}>
-            Kasir
+            Kasir Warehouse
           </h2>
           <div className="d-flex align-items-center" ref={refa}>
             <h3 className="know mt-2 me-2">KNOW MORE</h3>
@@ -242,7 +242,7 @@ function Portfolio() {
             <img src={portgam} className="w-100 h-100" alt="" ref={ref7} />
           </div>
           <h2 className="judulporto" ref={refe}>
-            API Visualization
+            Website Portfolio
           </h2>
           <div className="d-flex align-items-center" ref={reff}>
             <h3 className="know mt-2 me-2">KNOW MORE</h3>
