@@ -2,10 +2,11 @@ import { Button, Container, Row, Col } from "react-bootstrap";
 import "../style/Portfolio.scss";
 import elang from "../assets/elangdua.png";
 import kasir from "../assets/kasir.png";
-import hoops from "../assets/hoops.png";
+import furniture from "../assets/efurniture.png";
 import portgam from "../assets/portfolio.png";
 import React, { useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Roll from "react-reveal/Roll";
 
 function Portfolio() {
   const ref4 = useRef(null);
@@ -104,10 +105,10 @@ function Portfolio() {
     };
     var ecommerce = ref6.current;
     ecommerce.onclick = function () {
-      var foto = hoops;
-      var judul = "Website Ecommerce";
+      var foto = furniture;
+      var judul = "E Furniture";
       var deskripsi =
-        "Project ini merupakan sebuah website Ecommerce/Toko online yang menjual peralatan-peralatan olahraga basket. Website ini saya bangun menggunakan HTML, CSS, dan JavaScript. Website ini masih sangat sederhana karena hanya sebagai tampilan, bisa melakukan transaksi akan tetapi tidak tercatat ke database. website ini masih dalam tahap prototype, Website dapat dikunjungi dengan mengklik Gambar !!";
+        "Project ini merupakan Aplikasi Web-based Ecommerce yang menjual furniture secara online, aplikasi ini dikembangkan menggunakan bahasa pemograman php dengan framework laravel. aplikasi ini terdapat fitur register, login, buy, checkout, view transaction & dan lain sebagainya layaknya sebuah toko online. Website dapat dikunjungi dengan mengklik Gambar !!";
       var a = "https://hoopsuniverse.netlify.app/";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
@@ -118,10 +119,10 @@ function Portfolio() {
     };
 
     refc.current.onclick = function () {
-      var foto = hoops;
+      var foto = furniture;
       var judul = "Website Ecommerce";
       var deskripsi =
-        "Project ini merupakan sebuah website Ecommerce/Toko online yang menjual peralatan-peralatan olahraga basket. Website ini saya bangun menggunakan HTML, CSS, dan JavaScript. Website ini masih sangat sederhana karena hanya sebagai tampilan, bisa melakukan transaksi akan tetapi tidak tercatat ke database. website ini masih dalam tahap prototype, Website dapat dikunjungi dengan mengklik Gambar !!";
+        "Project ini merupakan Aplikasi Web-based Ecommerce yang menjual furniture secara online, aplikasi ini dikembangkan menggunakan bahasa pemograman php dengan framework laravel. aplikasi ini terdapat fitur register, login, buy, checkout, view transaction & dan lain sebagainya layaknya sebuah toko online. Website dapat dikunjungi dengan mengklik Gambar !!";
       var a = "https://hoopsuniverse.netlify.app/";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
@@ -132,10 +133,10 @@ function Portfolio() {
     };
 
     refd.current.onclick = function () {
-      var foto = hoops;
+      var foto = furniture;
       var judul = "Website Ecommerce";
       var deskripsi =
-        "Project ini merupakan sebuah website Ecommerce/Toko online yang menjual peralatan-peralatan olahraga basket. Website ini saya bangun menggunakan HTML, CSS, dan JavaScript. Website ini masih sangat sederhana karena hanya sebagai tampilan, bisa melakukan transaksi akan tetapi tidak tercatat ke database. website ini masih dalam tahap prototype, Website dapat dikunjungi dengan mengklik Gambar !!";
+        "Project ini merupakan Aplikasi Web-based Ecommerce yang menjual furniture secara online, aplikasi ini dikembangkan menggunakan bahasa pemograman php dengan framework laravel. aplikasi ini terdapat fitur register, login, buy, checkout, view transaction & dan lain sebagainya layaknya sebuah toko online. Website dapat dikunjungi dengan mengklik Gambar !!";
       var a = "https://hoopsuniverse.netlify.app/";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
@@ -196,60 +197,77 @@ function Portfolio() {
       </div>
       <Row className="justify-content-between">
         <Col xl="2" className="mask">
-          <div className="bg-danger backimage">
-            <img src={elang} className="w-100 h-100" alt="" ref={ref4} />
-          </div>
-          <h2 className="judulporto" ref={ref8}>
-            Elang Dua
-          </h2>
-          <div className="d-flex align-items-center boxknow" ref={ref9}>
-            <h3 className="know mt-2 me-2">KNOW MORE</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-            </svg>
-          </div>
+          <Roll left>
+            <div>
+              <div className="bg-danger backimage">
+                <img src={elang} className="w-100 h-100" alt="" ref={ref4} />
+              </div>
+              <h2 className="judulporto" ref={ref8}>
+                Elang Dua
+              </h2>
+              <div className="d-flex align-items-center boxknow" ref={ref9}>
+                <h3 className="know mt-2 me-2">KNOW MORE</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </div>
+            </div>
+          </Roll>
+        </Col>
+
+        <Col xl="2" className="mask">
+          <Roll right>
+            <div>
+              <div className="bg-danger backimage">
+                <img src={kasir} className="w-100 h-100" alt="" ref={ref5} />
+              </div>
+              <h2 className="judulporto" ref={refb}>
+                Kasir Warehouse
+              </h2>
+              <div className="d-flex align-items-center" ref={refa}>
+                <h3 className="know mt-2 me-2">KNOW MORE</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </div>
+            </div>
+          </Roll>
         </Col>
         <Col xl="2" className="mask">
-          <div className="bg-danger backimage">
-            <img src={kasir} className="w-100 h-100" alt="" ref={ref5} />
-          </div>
-          <h2 className="judulporto" ref={refb}>
-            Kasir Warehouse
-          </h2>
-          <div className="d-flex align-items-center" ref={refa}>
-            <h3 className="know mt-2 me-2">KNOW MORE</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-            </svg>
-          </div>
+          <Roll top>
+            <div>
+              <div className="bg-danger backimage">
+                <img src={furniture} className="w-100 h-100" alt="" ref={ref6} />
+              </div>
+              <h2 className="judulporto" ref={refc}>
+                E Furniture
+              </h2>
+              <div className="d-flex align-items-center " ref={refd}>
+                <h3 className="know mt-2 me-2">KNOW MORE</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </div>
+            </div>
+          </Roll>
         </Col>
         <Col xl="2" className="mask">
-          <div className="bg-danger backimage">
-            <img src={hoops} className="w-100 h-100" alt="" ref={ref6} />
-          </div>
-          <h2 className="judulporto" ref={refc}>
-            Hoops Universe
-          </h2>
-          <div className="d-flex align-items-center " ref={refd}>
-            <h3 className="know mt-2 me-2">KNOW MORE</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-            </svg>
-          </div>
-        </Col>
-        <Col xl="2" className="mask">
-          <div className="bg-danger backimage">
-            <img src={portgam} className="w-100 h-100" alt="" ref={ref7} />
-          </div>
-          <h2 className="judulporto" ref={refe}>
-            Website Portfolio
-          </h2>
-          <div className="d-flex align-items-center" ref={reff}>
-            <h3 className="know mt-2 me-2">KNOW MORE</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-            </svg>
-          </div>
+          <Roll bottom>
+            <div>
+              <div className="bg-danger backimage">
+                <img src={portgam} className="w-100 h-100" alt="" ref={ref7} />
+              </div>
+              <h2 className="judulporto" ref={refe}>
+                Website Portfolio
+              </h2>
+              <div className="d-flex align-items-center" ref={reff}>
+                <h3 className="know mt-2 me-2">KNOW MORE</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </div>
+            </div>
+          </Roll>
         </Col>
       </Row>
     </Container>
