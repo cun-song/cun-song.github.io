@@ -70,16 +70,16 @@ const Skill = () => {
           <h2 className="subjudul">JAVA & C#</h2>
         </Col>
         <Col className="mb-5">
-          <Circle target="70" warna="#47B5FF" />
-          <h2 className="subjudul">JAVA SCRIPT</h2>
+          <Circle target="80" warna="#47B5FF" />
+          <h2 className="subjudul">PHP & LARAVEL</h2>
         </Col>
         <Col className="mb-5">
           <Circle target="65" warna="#47B5FF" />
           <h2 className="subjudul">PYTHON</h2>
         </Col>
         <Col className="mb-5">
-          <Circle target="65" warna="#47B5FF" />
-          <h2 className="subjudul">REACT</h2>
+          <Circle target="60" warna="#47B5FF" />
+          <h2 className="subjudul">REACT JS</h2>
         </Col>
         <Col className="mb-5">
           <Circle target="90" warna="#FCB223" />
@@ -90,6 +90,11 @@ const Skill = () => {
           <h2 className="subjudul">ALGORITHM DEVELOPMENT</h2>
         </Col>
       </Row>
+      <div className="d-flex justify-content-center">
+        <button className="btn btn-secondary fw-bold fs-4 mb-5" onClick={() => window.location.reload(false)}>
+          Refresh
+        </button>
+      </div>
     </Container>
   );
 };

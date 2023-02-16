@@ -29,7 +29,7 @@ function Portfolio() {
       var judul = "Website Bisnis";
       var deskripsi =
         "Project ini merupakan hasil pesanan dari sebuah perusahaan kecap yang ingin mempunyai website sendiri, Website tersebut saya bangun menggunakan HTML, CSS serta dengan bantuan Framerwork Bootstrap dan SCSS. Pada website ini terdapat tampilan informasi-informasi seputar perusahaan, seperti produk perusahaan, contact perusahan, dan alamat perusahaan. Website dapat dikunjungi dengan mengklik Gambar !!";
-      var a = "https://elangdua.rf.gd/";
+      var a = "https://elangdua.vercel.app/";
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
       localStorage.setItem("des", deskripsi);
@@ -43,7 +43,7 @@ function Portfolio() {
       var judul = "Website Bisnis";
       var deskripsi =
         "Project ini merupakan hasil pesanan dari sebuah perusahaan kecap yang ingin mempunyai website sendiri, Website tersebut saya bangun menggunakan HTML, CSS serta dengan bantuan Framerwork Bootstrap dan SCSS. Pada website ini terdapat tampilan informasi-informasi seputar perusahaan, seperti produk perusahaan, contact perusahan, dan alamat perusahaan. Website dapat dikunjungi dengan mengklik Gambar !!";
-      var a = "https://elangdua.rf.gd/";
+      var a = "https://elangdua.vercel.app/";
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
       localStorage.setItem("des", deskripsi);
@@ -56,7 +56,7 @@ function Portfolio() {
       var judul = "Website Bisnis";
       var deskripsi =
         "Project ini merupakan hasil pesanan dari sebuah perusahaan kecap yang ingin mempunyai website sendiri, Website tersebut saya bangun menggunakan HTML, CSS serta dengan bantuan Framerwork Bootstrap dan SCSS. Pada website ini terdapat tampilan informasi-informasi seputar perusahaan, seperti produk perusahaan, contact perusahan, dan alamat perusahaan. Website dapat dikunjungi dengan mengklik Gambar !!";
-      var a = "https://elangdua.rf.gd/";
+      var a = "https://elangdua.vercel.app/";
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
       localStorage.setItem("des", deskripsi);
@@ -109,7 +109,7 @@ function Portfolio() {
       var judul = "E Furniture";
       var deskripsi =
         "Project ini merupakan Aplikasi Web-based Ecommerce yang menjual furniture secara online, aplikasi ini dikembangkan menggunakan bahasa pemograman php dengan framework laravel. aplikasi ini terdapat fitur register, login, buy, checkout, view transaction & dan lain sebagainya layaknya sebuah toko online. Website dapat dikunjungi dengan mengklik Gambar !!";
-      var a = "https://hoopsuniverse.netlify.app/";
+      var a = "https://github.com/cun-song/E-Furniture";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
@@ -123,7 +123,7 @@ function Portfolio() {
       var judul = "Website Ecommerce";
       var deskripsi =
         "Project ini merupakan Aplikasi Web-based Ecommerce yang menjual furniture secara online, aplikasi ini dikembangkan menggunakan bahasa pemograman php dengan framework laravel. aplikasi ini terdapat fitur register, login, buy, checkout, view transaction & dan lain sebagainya layaknya sebuah toko online. Website dapat dikunjungi dengan mengklik Gambar !!";
-      var a = "https://hoopsuniverse.netlify.app/";
+      var a = "https://github.com/cun-song/E-Furniture";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
@@ -137,7 +137,7 @@ function Portfolio() {
       var judul = "Website Ecommerce";
       var deskripsi =
         "Project ini merupakan Aplikasi Web-based Ecommerce yang menjual furniture secara online, aplikasi ini dikembangkan menggunakan bahasa pemograman php dengan framework laravel. aplikasi ini terdapat fitur register, login, buy, checkout, view transaction & dan lain sebagainya layaknya sebuah toko online. Website dapat dikunjungi dengan mengklik Gambar !!";
-      var a = "https://hoopsuniverse.netlify.app/";
+      var a = "https://github.com/cun-song/E-Furniture";
       localStorage.setItem("to", a);
       localStorage.setItem("foto", foto);
       localStorage.setItem("judul", judul);
